@@ -6,8 +6,6 @@
 //  Copyright (c) 2014 Gabriel Triggs. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 @interface GTNPRStation : NSObject
 
 typedef enum { kWeak = 1,
