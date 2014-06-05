@@ -21,6 +21,7 @@
 		C0E4D57E193F9ED600E3AD21 /* GTView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4D57D193F9ED600E3AD21 /* GTView.m */; };
 		C0E4D582193FA09200E3AD21 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D580193FA09200E3AD21 /* bg.png */; };
 		C0E4D583193FA09200E3AD21 /* bgShort.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D581193FA09200E3AD21 /* bgShort.png */; };
+		C0E4D58A193FF0C800E3AD21 /* GTNPRStation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4D589193FF0C800E3AD21 /* GTNPRStation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		C0E4D580193FA09200E3AD21 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		C0E4D581193FA09200E3AD21 /* bgShort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgShort.png; sourceTree = "<group>"; };
 		C0E4D584193FACF100E3AD21 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		C0E4D588193FF0C800E3AD21 /* GTNPRStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTNPRStation.h; sourceTree = "<group>"; };
+		C0E4D589193FF0C800E3AD21 /* GTNPRStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTNPRStation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		C0E4D550193F981B00E3AD21 /* NPR Finder */ = {
 			isa = PBXGroup;
 			children = (
+				C0E4D588193FF0C800E3AD21 /* GTNPRStation.h */,
+				C0E4D589193FF0C800E3AD21 /* GTNPRStation.m */,
 				C0E4D579193F989100E3AD21 /* GTViewController.h */,
 				C0E4D57A193F989100E3AD21 /* GTViewController.m */,
 				C0E4D57C193F9ED600E3AD21 /* GTView.h */,
@@ -248,6 +253,7 @@
 			files = (
 				C0E4D557193F981B00E3AD21 /* main.m in Sources */,
 				C0E4D57E193F9ED600E3AD21 /* GTView.m in Sources */,
+				C0E4D58A193FF0C800E3AD21 /* GTNPRStation.m in Sources */,
 				C0E4D57B193F989100E3AD21 /* GTViewController.m in Sources */,
 				C0E4D55B193F981B00E3AD21 /* GTAppDelegate.m in Sources */,
 			);
