@@ -11,9 +11,29 @@
 
 @interface GTViewController ()
 
+@property (nonatomic) GTReverseGeocoder *reverseGeocoder;
+
 @end
 
 @implementation GTViewController
+
+- (void)updateStationData
+{
+    
+}
+
+- (void)restartReverseGeocoder
+{
+    if (!_reverseGeocoder) {
+        _reverseGeocoder = [[GTReverseGeocoder alloc] initWithDelegate:self];
+    }
+    [_reverseGeocoder resumeUpdating];
+}
+
+- (void)shutDownReverseGeocoder
+{
+    [_reverseGeocoder stopUpdating];
+}
 
 - (void)loadView
 {
@@ -31,6 +51,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self setNeedsStatusBarAppearanceUpdate];
+    _reverseGeocoder = [[GTReverseGeocoder alloc] initWithDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,15 +60,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+#pragma mark GTReverseGeocoder delegate methods
+- (void)currentCityDidChange:(NSString *)newCity
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([newCity isEqualToString:@"error"]) {
+        newCity = @"No nearby city. Using Lat/Long.";
+    }
+    [((GTView *) self.view) updateCity:newCity];
+    [self updateStationData];
 }
-*/
 
 @end

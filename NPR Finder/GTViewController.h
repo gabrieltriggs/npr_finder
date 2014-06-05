@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GTReverseGeocoder.h"
 
-@interface GTViewController : UIViewController
+@interface GTViewController : UIViewController <GTReverseGeocoderDelegate>
+
+- (void)restartReverseGeocoder;
+- (void)shutDownReverseGeocoder;
 
 @end

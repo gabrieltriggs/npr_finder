@@ -10,4 +10,6 @@
 
 @interface GTView : UIView
 
+- (void)updateCity:(NSString *)newCity;
+
 @end

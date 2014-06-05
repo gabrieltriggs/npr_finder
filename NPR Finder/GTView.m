@@ -32,19 +32,17 @@
         stationsNearLabel.text = @"Stations Near";
         
         float cityLabelWidth = self.frame.size.width - 2 * borderSize;
-        NSLog(@"%f", cityLabelWidth);
         self.cityLabel = [[UILabel alloc] initWithFrame:
                       CGRectMake((self.frame.size.width - cityLabelWidth) / 2,
                                  0 + 20 + 34,
                                  cityLabelWidth,
                                  stationsNearLabel.frame.origin.y + 54)];
-        NSLog(@"%f", _cityLabel.frame.origin.x);
         _cityLabel.textColor = [UIColor whiteColor];
         _cityLabel.font = [UIFont fontWithName:@"Avenir-Light" size:33];
         _cityLabel.textAlignment = NSTextAlignmentCenter;
         _cityLabel.adjustsFontSizeToFitWidth = YES;
         _cityLabel.minimumScaleFactor = 0.5;
-        _cityLabel.text = @"Minneapolis";
+//        _cityLabel.text = @"Minneapolis";
         
         UIView *overlay = [[UIView alloc] initWithFrame:
                            CGRectMake(borderSize,
@@ -60,6 +58,11 @@
         [self addSubview:overlay];
     }
     return self;
+}
+
+- (void)updateCity:(NSString *)newCity
+{
+    _cityLabel.text = newCity;
 }
 
 @end
