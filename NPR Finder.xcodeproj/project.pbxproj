@@ -17,8 +17,6 @@
 		C0E4D564193F981B00E3AD21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4D563193F981B00E3AD21 /* XCTest.framework */; };
 		C0E4D565193F981B00E3AD21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4D54A193F981B00E3AD21 /* Foundation.framework */; };
 		C0E4D566193F981B00E3AD21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4D54E193F981B00E3AD21 /* UIKit.framework */; };
-		C0E4D56E193F981B00E3AD21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D56C193F981B00E3AD21 /* InfoPlist.strings */; };
-		C0E4D570193F981B00E3AD21 /* NPR_FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4D56F193F981B00E3AD21 /* NPR_FinderTests.m */; };
 		C0E4D57B193F989100E3AD21 /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4D57A193F989100E3AD21 /* GTViewController.m */; };
 		C0E4D57E193F9ED600E3AD21 /* GTView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4D57D193F9ED600E3AD21 /* GTView.m */; };
 		C0E4D582193FA09200E3AD21 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D580193FA09200E3AD21 /* bg.png */; };
@@ -49,9 +47,6 @@
 		C0E4D55C193F981B00E3AD21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C0E4D562193F981B00E3AD21 /* NPR FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NPR FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E4D563193F981B00E3AD21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C0E4D56B193F981B00E3AD21 /* NPR FinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NPR FinderTests-Info.plist"; sourceTree = "<group>"; };
-		C0E4D56D193F981B00E3AD21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C0E4D56F193F981B00E3AD21 /* NPR_FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPR_FinderTests.m; sourceTree = "<group>"; };
 		C0E4D579193F989100E3AD21 /* GTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTViewController.h; sourceTree = "<group>"; };
 		C0E4D57A193F989100E3AD21 /* GTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
 		C0E4D57C193F9ED600E3AD21 /* GTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTView.h; sourceTree = "<group>"; };
@@ -89,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				C0E4D550193F981B00E3AD21 /* NPR Finder */,
-				C0E4D569193F981B00E3AD21 /* NPR FinderTests */,
 				C0E4D549193F981B00E3AD21 /* Frameworks */,
 				C0E4D548193F981B00E3AD21 /* Products */,
 			);
@@ -139,24 +133,6 @@
 				C0E4D553193F981B00E3AD21 /* InfoPlist.strings */,
 				C0E4D556193F981B00E3AD21 /* main.m */,
 				C0E4D558193F981B00E3AD21 /* NPR Finder-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C0E4D569193F981B00E3AD21 /* NPR FinderTests */ = {
-			isa = PBXGroup;
-			children = (
-				C0E4D56F193F981B00E3AD21 /* NPR_FinderTests.m */,
-				C0E4D56A193F981B00E3AD21 /* Supporting Files */,
-			);
-			path = "NPR FinderTests";
-			sourceTree = "<group>";
-		};
-		C0E4D56A193F981B00E3AD21 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C0E4D56B193F981B00E3AD21 /* NPR FinderTests-Info.plist */,
-				C0E4D56C193F981B00E3AD21 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -260,7 +236,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0E4D56E193F981B00E3AD21 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0E4D570193F981B00E3AD21 /* NPR_FinderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +275,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				C0E4D554193F981B00E3AD21 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C0E4D56C193F981B00E3AD21 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0E4D56D193F981B00E3AD21 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -475,6 +441,7 @@
 				C0E4D575193F981B00E3AD21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0E4D576193F981B00E3AD21 /* Build configuration list for PBXNativeTarget "NPR FinderTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +450,7 @@
 				C0E4D578193F981B00E3AD21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
