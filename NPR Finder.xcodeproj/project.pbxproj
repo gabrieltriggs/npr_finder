@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0E4D54B193F981B00E3AD21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4D54A193F981B00E3AD21 /* Foundation.framework */; };
+		C0E4D54D193F981B00E3AD21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4D54C193F981B00E3AD21 /* CoreGraphics.framework */; };
+		C0E4D54F193F981B00E3AD21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4D54E193F981B00E3AD21 /* UIKit.framework */; };
+		C0E4D555193F981B00E3AD21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D553193F981B00E3AD21 /* InfoPlist.strings */; };
+		C0E4D557193F981B00E3AD21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4D556193F981B00E3AD21 /* main.m */; };
+		C0E4D55B193F981B00E3AD21 /* GTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4D55A193F981B00E3AD21 /* GTAppDelegate.m */; };
+		C0E4D55D193F981B00E3AD21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D55C193F981B00E3AD21 /* Images.xcassets */; };
+		C0E4D564193F981B00E3AD21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4D563193F981B00E3AD21 /* XCTest.framework */; };
+		C0E4D565193F981B00E3AD21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4D54A193F981B00E3AD21 /* Foundation.framework */; };
+		C0E4D566193F981B00E3AD21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4D54E193F981B00E3AD21 /* UIKit.framework */; };
+		C0E4D56E193F981B00E3AD21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D56C193F981B00E3AD21 /* InfoPlist.strings */; };
+		C0E4D570193F981B00E3AD21 /* NPR_FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4D56F193F981B00E3AD21 /* NPR_FinderTests.m */; };
+		C0E4D57B193F989100E3AD21 /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4D57A193F989100E3AD21 /* GTViewController.m */; };
+		C0E4D57E193F9ED600E3AD21 /* GTView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4D57D193F9ED600E3AD21 /* GTView.m */; };
+		C0E4D582193FA09200E3AD21 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D580193FA09200E3AD21 /* bg.png */; };
+		C0E4D583193FA09200E3AD21 /* bgShort.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D581193FA09200E3AD21 /* bgShort.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0E4D567193F981B00E3AD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0E4D53F193F981B00E3AD21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E4D546193F981B00E3AD21;
+			remoteInfo = "NPR Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0E4D547193F981B00E3AD21 /* NPR Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NPR Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E4D54A193F981B00E3AD21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0E4D54C193F981B00E3AD21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0E4D54E193F981B00E3AD21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0E4D552193F981B00E3AD21 /* NPR Finder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NPR Finder-Info.plist"; sourceTree = "<group>"; };
+		C0E4D554193F981B00E3AD21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0E4D556193F981B00E3AD21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0E4D558193F981B00E3AD21 /* NPR Finder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NPR Finder-Prefix.pch"; sourceTree = "<group>"; };
+		C0E4D559193F981B00E3AD21 /* GTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAppDelegate.h; sourceTree = "<group>"; };
+		C0E4D55A193F981B00E3AD21 /* GTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAppDelegate.m; sourceTree = "<group>"; };
+		C0E4D55C193F981B00E3AD21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0E4D562193F981B00E3AD21 /* NPR FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NPR FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E4D563193F981B00E3AD21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C0E4D56B193F981B00E3AD21 /* NPR FinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NPR FinderTests-Info.plist"; sourceTree = "<group>"; };
+		C0E4D56D193F981B00E3AD21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0E4D56F193F981B00E3AD21 /* NPR_FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPR_FinderTests.m; sourceTree = "<group>"; };
+		C0E4D579193F989100E3AD21 /* GTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTViewController.h; sourceTree = "<group>"; };
+		C0E4D57A193F989100E3AD21 /* GTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
+		C0E4D57C193F9ED600E3AD21 /* GTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTView.h; sourceTree = "<group>"; };
+		C0E4D57D193F9ED600E3AD21 /* GTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTView.m; sourceTree = "<group>"; };
+		C0E4D580193FA09200E3AD21 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		C0E4D581193FA09200E3AD21 /* bgShort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgShort.png; sourceTree = "<group>"; };
+		C0E4D584193FACF100E3AD21 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0E4D544193F981B00E3AD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E4D54D193F981B00E3AD21 /* CoreGraphics.framework in Frameworks */,
+				C0E4D54F193F981B00E3AD21 /* UIKit.framework in Frameworks */,
+				C0E4D54B193F981B00E3AD21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E4D55F193F981B00E3AD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E4D564193F981B00E3AD21 /* XCTest.framework in Frameworks */,
+				C0E4D566193F981B00E3AD21 /* UIKit.framework in Frameworks */,
+				C0E4D565193F981B00E3AD21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0E4D53E193F981B00E3AD21 = {
+			isa = PBXGroup;
+			children = (
+				C0E4D550193F981B00E3AD21 /* NPR Finder */,
+				C0E4D569193F981B00E3AD21 /* NPR FinderTests */,
+				C0E4D549193F981B00E3AD21 /* Frameworks */,
+				C0E4D548193F981B00E3AD21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0E4D548193F981B00E3AD21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4D547193F981B00E3AD21 /* NPR Finder.app */,
+				C0E4D562193F981B00E3AD21 /* NPR FinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0E4D549193F981B00E3AD21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4D54A193F981B00E3AD21 /* Foundation.framework */,
+				C0E4D54C193F981B00E3AD21 /* CoreGraphics.framework */,
+				C0E4D54E193F981B00E3AD21 /* UIKit.framework */,
+				C0E4D563193F981B00E3AD21 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0E4D550193F981B00E3AD21 /* NPR Finder */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4D579193F989100E3AD21 /* GTViewController.h */,
+				C0E4D57A193F989100E3AD21 /* GTViewController.m */,
+				C0E4D57C193F9ED600E3AD21 /* GTView.h */,
+				C0E4D57D193F9ED600E3AD21 /* GTView.m */,
+				C0E4D584193FACF100E3AD21 /* View.xib */,
+				C0E4D551193F981B00E3AD21 /* Supporting Files */,
+			);
+			path = "NPR Finder";
+			sourceTree = "<group>";
+		};
+		C0E4D551193F981B00E3AD21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4D57F193FA06600E3AD21 /* Images */,
+				C0E4D55C193F981B00E3AD21 /* Images.xcassets */,
+				C0E4D559193F981B00E3AD21 /* GTAppDelegate.h */,
+				C0E4D55A193F981B00E3AD21 /* GTAppDelegate.m */,
+				C0E4D552193F981B00E3AD21 /* NPR Finder-Info.plist */,
+				C0E4D553193F981B00E3AD21 /* InfoPlist.strings */,
+				C0E4D556193F981B00E3AD21 /* main.m */,
+				C0E4D558193F981B00E3AD21 /* NPR Finder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0E4D569193F981B00E3AD21 /* NPR FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4D56F193F981B00E3AD21 /* NPR_FinderTests.m */,
+				C0E4D56A193F981B00E3AD21 /* Supporting Files */,
+			);
+			path = "NPR FinderTests";
+			sourceTree = "<group>";
+		};
+		C0E4D56A193F981B00E3AD21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4D56B193F981B00E3AD21 /* NPR FinderTests-Info.plist */,
+				C0E4D56C193F981B00E3AD21 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0E4D57F193FA06600E3AD21 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4D580193FA09200E3AD21 /* bg.png */,
+				C0E4D581193FA09200E3AD21 /* bgShort.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0E4D546193F981B00E3AD21 /* NPR Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E4D573193F981B00E3AD21 /* Build configuration list for PBXNativeTarget "NPR Finder" */;
+			buildPhases = (
+				C0E4D543193F981B00E3AD21 /* Sources */,
+				C0E4D544193F981B00E3AD21 /* Frameworks */,
+				C0E4D545193F981B00E3AD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NPR Finder";
+			productName = "NPR Finder";
+			productReference = C0E4D547193F981B00E3AD21 /* NPR Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0E4D561193F981B00E3AD21 /* NPR FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E4D576193F981B00E3AD21 /* Build configuration list for PBXNativeTarget "NPR FinderTests" */;
+			buildPhases = (
+				C0E4D55E193F981B00E3AD21 /* Sources */,
+				C0E4D55F193F981B00E3AD21 /* Frameworks */,
+				C0E4D560193F981B00E3AD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0E4D568193F981B00E3AD21 /* PBXTargetDependency */,
+			);
+			name = "NPR FinderTests";
+			productName = "NPR FinderTests";
+			productReference = C0E4D562193F981B00E3AD21 /* NPR FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0E4D53F193F981B00E3AD21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gabriel Triggs";
+				TargetAttributes = {
+					C0E4D546193F981B00E3AD21 = {
+						DevelopmentTeam = 7FQ3X6J325;
+					};
+					C0E4D561193F981B00E3AD21 = {
+						TestTargetID = C0E4D546193F981B00E3AD21;
+					};
+				};
+			};
+			buildConfigurationList = C0E4D542193F981B00E3AD21 /* Build configuration list for PBXProject "NPR Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0E4D53E193F981B00E3AD21;
+			productRefGroup = C0E4D548193F981B00E3AD21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0E4D546193F981B00E3AD21 /* NPR Finder */,
+				C0E4D561193F981B00E3AD21 /* NPR FinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0E4D545193F981B00E3AD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E4D555193F981B00E3AD21 /* InfoPlist.strings in Resources */,
+				C0E4D55D193F981B00E3AD21 /* Images.xcassets in Resources */,
+				C0E4D582193FA09200E3AD21 /* bg.png in Resources */,
+				C0E4D583193FA09200E3AD21 /* bgShort.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E4D560193F981B00E3AD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E4D56E193F981B00E3AD21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0E4D543193F981B00E3AD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E4D557193F981B00E3AD21 /* main.m in Sources */,
+				C0E4D57E193F9ED600E3AD21 /* GTView.m in Sources */,
+				C0E4D57B193F989100E3AD21 /* GTViewController.m in Sources */,
+				C0E4D55B193F981B00E3AD21 /* GTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E4D55E193F981B00E3AD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E4D570193F981B00E3AD21 /* NPR_FinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0E4D568193F981B00E3AD21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0E4D546193F981B00E3AD21 /* NPR Finder */;
+			targetProxy = C0E4D567193F981B00E3AD21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0E4D553193F981B00E3AD21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0E4D554193F981B00E3AD21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0E4D56C193F981B00E3AD21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0E4D56D193F981B00E3AD21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0E4D571193F981B00E3AD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0E4D572193F981B00E3AD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0E4D574193F981B00E3AD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NPR Finder/NPR Finder-Prefix.pch";
+				INFOPLIST_FILE = "NPR Finder/NPR Finder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0E4D575193F981B00E3AD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NPR Finder/NPR Finder-Prefix.pch";
+				INFOPLIST_FILE = "NPR Finder/NPR Finder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C0E4D577193F981B00E3AD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NPR Finder.app/NPR Finder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NPR Finder/NPR Finder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NPR FinderTests/NPR FinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C0E4D578193F981B00E3AD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NPR Finder.app/NPR Finder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NPR Finder/NPR Finder-Prefix.pch";
+				INFOPLIST_FILE = "NPR FinderTests/NPR FinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0E4D542193F981B00E3AD21 /* Build configuration list for PBXProject "NPR Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E4D571193F981B00E3AD21 /* Debug */,
+				C0E4D572193F981B00E3AD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E4D573193F981B00E3AD21 /* Build configuration list for PBXNativeTarget "NPR Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E4D574193F981B00E3AD21 /* Debug */,
+				C0E4D575193F981B00E3AD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0E4D576193F981B00E3AD21 /* Build configuration list for PBXNativeTarget "NPR FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E4D577193F981B00E3AD21 /* Debug */,
+				C0E4D578193F981B00E3AD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0E4D53F193F981B00E3AD21 /* Project object */;
+}
