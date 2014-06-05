@@ -22,6 +22,7 @@
 		C0E4D582193FA09200E3AD21 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D580193FA09200E3AD21 /* bg.png */; };
 		C0E4D583193FA09200E3AD21 /* bgShort.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D581193FA09200E3AD21 /* bgShort.png */; };
 		C0E4D58A193FF0C800E3AD21 /* GTNPRStation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4D589193FF0C800E3AD21 /* GTNPRStation.m */; };
+		C0E4D58C193FFA2B00E3AD21 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0E4D58B193FFA2B00E3AD21 /* APIKey.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C0E4D584193FACF100E3AD21 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		C0E4D588193FF0C800E3AD21 /* GTNPRStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTNPRStation.h; sourceTree = "<group>"; };
 		C0E4D589193FF0C800E3AD21 /* GTNPRStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTNPRStation.m; sourceTree = "<group>"; };
+		C0E4D58B193FFA2B00E3AD21 /* APIKey.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				C0E4D57F193FA06600E3AD21 /* Images */,
 				C0E4D55C193F981B00E3AD21 /* Images.xcassets */,
+				C0E4D58B193FFA2B00E3AD21 /* APIKey.plist */,
 				C0E4D559193F981B00E3AD21 /* GTAppDelegate.h */,
 				C0E4D55A193F981B00E3AD21 /* GTAppDelegate.m */,
 				C0E4D552193F981B00E3AD21 /* NPR Finder-Info.plist */,
@@ -230,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E4D58C193FFA2B00E3AD21 /* APIKey.plist in Resources */,
 				C0E4D555193F981B00E3AD21 /* InfoPlist.strings in Resources */,
 				C0E4D55D193F981B00E3AD21 /* Images.xcassets in Resources */,
 				C0E4D582193FA09200E3AD21 /* bg.png in Resources */,
