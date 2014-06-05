@@ -11,8 +11,8 @@
 @interface GTNPRStation : NSObject
 
 typedef enum { kWeak = 1,
-    kModerate = 3,
-    kStrong = 5 } SignalStrength;
+               kModerate = 3,
+               kStrong = 5 } SignalStrength;
 
 @property (nonatomic)       int stationID;
 @property (nonatomic, copy) NSString *callLetters;
